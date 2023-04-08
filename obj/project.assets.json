@@ -1924,11 +1924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/group-blazer-app/StockApp/StockApp.csproj",
+      "projectUniqueName": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/StockApp.csproj",
       "projectName": "StockApp",
-      "projectPath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/group-blazer-app/StockApp/StockApp.csproj",
+      "projectPath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/StockApp.csproj",
       "packagesPath": "/Users/jossai/.nuget/packages/",
-      "outputPath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/group-blazer-app/StockApp/obj/",
+      "outputPath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jossai/.nuget/NuGet/NuGet.Config"

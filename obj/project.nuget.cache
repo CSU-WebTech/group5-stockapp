@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2a17TwMcTprcqs53Nin1ah8wCYB5/lXDS/bY2OwzZUrtGoJWQ1smZWWw3/ecg13tHjAUaZjaTTFVQXXCNQZLFg==",
+  "dgSpecHash": "V/S+qCvbTOf73E5foFKVuNUuYM9hERxGhRLyLhN0bhWffrFz/fWqkIIURT3upkcKUqNw+pWS6MpAa5nYBNM18w==",
   "success": true,
-  "projectFilePath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/group-blazer-app/StockApp/StockApp.csproj",
+  "projectFilePath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/StockApp.csproj",
   "expectedPackageFiles": [
     "/Users/jossai/.nuget/packages/microsoft.aspnetcore.authorization/7.0.4/microsoft.aspnetcore.authorization.7.0.4.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components/7.0.4/microsoft.aspnetcore.components.7.0.4.nupkg.sha512",
