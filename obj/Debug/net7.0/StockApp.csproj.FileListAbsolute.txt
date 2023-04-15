@@ -1670,3 +1670,7 @@
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/refint/StockApp.dll
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/StockApp.pdb
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/ref/StockApp.dll
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/Microsoft.Extensions.Http.dll
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/ZYSP+LeT.gz

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V/S+qCvbTOf73E5foFKVuNUuYM9hERxGhRLyLhN0bhWffrFz/fWqkIIURT3upkcKUqNw+pWS6MpAa5nYBNM18w==",
+  "dgSpecHash": "8hlK345yqw7eMrS/WqzzSUscIeHmYt+LBIpq1tzsmPQdE4kEgQc13K0uAGIrtqwk8C7cfN35tuO5erYZ4MwCeA==",
   "success": true,
   "projectFilePath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/StockApp.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/Users/jossai/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "/Users/jossai/.nuget/packages/microsoft.extensions.http/7.0.0/microsoft.extensions.http.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",

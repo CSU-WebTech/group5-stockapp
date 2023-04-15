@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i2TEpI2YT3WzAXRGY0Kdsl4vgtNj6m6CgngkhleKRwM=",
+  "Hash": "NKwuCQHTIQGmMgI/Y7kV+8iJThM1kEguJEeiuePvTd0=",
   "Source": "StockApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.extensions.http/7.0.0/lib/net7.0/Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
@@ -6951,6 +6968,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Net.WebProxy.dll"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/ZYSP+LeT.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/scopedcss/bundle/StockApp.styles.css",
