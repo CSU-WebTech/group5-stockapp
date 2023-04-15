@@ -1450,14 +1450,7 @@
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/StockApp.AssemblyInfo.cs
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/StockApp.csproj.CoreCompileInputs.cache
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/StockApp.MvcApplicationPartsAssemblyInfo.cache
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/mDyORvMv.gz
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/AIYizNog.gz
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/It4qIcx+.gz
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/3skc7Txd.gz
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/dOHgDMc+.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/WOBz8aO8.gz
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/DvL+f2w5.gz
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/TKeiyxG9.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/Mn2S+aZx.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/8zGwMimk.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/fhckQ1dW.gz
@@ -1472,7 +1465,6 @@
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/8GR+ireH.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/wMKr04tb.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/7htvytO1.gz
-/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/WIS0J4Ki.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/ObnQyK9y.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/LoLwyNzp.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/pwHXTc0W.gz
@@ -1674,3 +1666,11 @@
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll.gz
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/Microsoft.Extensions.Http.dll
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/ZYSP+LeT.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/hkhPbtUb.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/f0ZQX2j+.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/WVms9anq.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/OvAXUqRU.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/67XuX4Tk.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/X5obLinn.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/3RphM86i.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/92Lwytar.gz

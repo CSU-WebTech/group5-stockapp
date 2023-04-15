@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NKwuCQHTIQGmMgI/Y7kV+8iJThM1kEguJEeiuePvTd0=",
+  "Hash": "wcJkH9V4yjIwC4s3S6YhO+SUFR9PY452qGcJ2Ed8Yik=",
   "Source": "StockApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.4/staticwebassets/AuthenticationService.js",
+      "Identity": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/staticwebassets/AuthenticationService.js",
       "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "SourceType": "Package",
-      "ContentRoot": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.4/staticwebassets/",
+      "ContentRoot": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/staticwebassets/",
       "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "RelativePath": "AuthenticationService.js",
       "AssetKind": "All",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.4/staticwebassets/AuthenticationService.js"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/staticwebassets/AuthenticationService.js"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/blazor.boot.json",
@@ -201,7 +201,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.authorization/7.0.4/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/lib/net7.0/Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
@@ -218,7 +218,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.authorization/7.0.4/lib/net7.0/Microsoft.AspNetCore.Components.Authorization.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.authorization/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
@@ -235,7 +235,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components/7.0.4/lib/net7.0/Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
@@ -252,7 +252,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.4/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
@@ -269,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.web/7.0.4/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.web/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
@@ -286,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.4/lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/7.0.5/lib/net7.0/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -320,7 +320,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.metadata/7.0.4/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.metadata/7.0.5/lib/net7.0/Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.CSharp.dll",
@@ -609,7 +609,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.jsinterop/7.0.4/lib/net7.0/Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.jsinterop/7.0.5/lib/net7.0/Microsoft.JSInterop.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
@@ -3859,6 +3859,23 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.dll"
     },
     {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/3RphM86i.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/3rpq194m.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -3874,23 +3891,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Linq.dll"
-    },
-    {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/3skc7Txd.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/3whDF8xa.gz",
@@ -3976,6 +3976,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Security.Cryptography.OpenSsl.dll"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/67XuX4Tk.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/68+uNmeR.gz",
@@ -4148,6 +4165,23 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/92Lwytar.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/9ssSXP9L.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -4231,23 +4265,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Security.Principal.dll"
-    },
-    {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/AIYizNog.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/ak1eoiKo.gz",
@@ -4522,23 +4539,6 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Private.Xml.Linq.dll"
     },
     {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/dOHgDMc+.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/Dsgv5Y9Y.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -4554,23 +4554,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Xml.dll"
-    },
-    {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/DvL+f2w5.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/dwUL2Yw9.gz",
@@ -4724,6 +4707,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.TraceSource.dll"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/f0ZQX2j+.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/fAlIl7WQ.gz",
@@ -5032,6 +5032,23 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Serialization.Primitives.dll"
     },
     {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/hkhPbtUb.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/HlfQ9Qxf.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -5217,23 +5234,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Net.Http.Json.dll"
-    },
-    {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/It4qIcx+.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/j3vUCtuQ.gz",
@@ -5525,23 +5525,6 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.FileVersionInfo.dll"
     },
     {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/mDyORvMv.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/Mn2S+aZx.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -5795,6 +5778,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.IO.MemoryMappedFiles.dll"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/OvAXUqRU.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/oWCb1ebl.gz",
@@ -6443,23 +6443,6 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Numerics.dll"
     },
     {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/TKeiyxG9.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/U3StSjOK.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -6664,23 +6647,6 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Reflection.Emit.Lightweight.dll"
     },
     {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/WIS0J4Ki.gz",
-      "SourceId": "StockApp",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/wMKr04tb.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -6713,6 +6679,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/WVms9anq.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/wX6Musb0.gz",
@@ -6832,6 +6815,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/System.Threading.Overlapped.dll"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/X5obLinn.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/obj/Debug/net7.0/build-gz/xFumM2SA.gz",

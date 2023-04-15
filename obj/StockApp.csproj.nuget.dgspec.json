@@ -40,11 +40,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.AspNetCore.Components.Authorization": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -52,7 +52,7 @@
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",

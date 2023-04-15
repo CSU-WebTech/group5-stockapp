@@ -9,8 +9,26 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Watchlist Items</h2>
+
+            <br>
+            <p>Please enter a valid stock acronym:</p>
+            <input placeholder="AACG" @bind="enteredStock" />
+            <button @onclick="AddStock">Lookup</button> 
+            <br>
+
+
+
             @if (stockResponse != null) {
-                <p> @stockResponse</p>
+                @foreach (var data in stockResponse.theData) {
+                    <p>"Symbol:" @data.theSymbol</p>
+                    <p>"Name:" @data.theName</p>
+                    <p>"Currency:" @data.theCurrency</p>
+                    <p>"Exchange:" @data.theExchange </p>     
+                    <p>"Mic Code:" @data.theName</p>
+                    <p>"Country:"  @data.theCountry</p>
+                    <p>"Type:" @data.theType</p>
+
+                }
             }           
         </div>
     </div>
@@ -20,6 +38,15 @@
 
     private StockResponse? stockResponse = null;
     protected override async Task OnInitializedAsync(){
-        stockResponse = await StockClient.GetStock();
+        stockResponse = await StockClient.GetStock(null);
     }
+
+    private string? enteredStock;
+
+    protected async Task AddStock(){
+        if(enteredStock != null){
+        stockResponse = await StockClient.GetStock(enteredStock);
+    }
+    }
+
 }
