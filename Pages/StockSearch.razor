@@ -1,4 +1,4 @@
-﻿@page "/watchlist"
+﻿@page "/stocksearch"
 @using StockApp.Models;
 @using StockApp.Clients;
 @inject StockClient StockClient;
@@ -8,14 +8,13 @@
 <div class="container px-4 px-lg-5">
     <div class="row">
         <div class="col-md-6">
-            <h2>Watchlist Items</h2>
+            <h2>Lookup Stock</h2>
 
             <br>
             <p>Please enter a valid stock acronym:</p>
             <input placeholder="AACG" @bind="enteredStock" />
-            <button @onclick="AddStock">Lookup</button> 
+            <button class="btn btn-primary" @onclick="AddStock">Lookup</button> 
             <br>
-
 
 
             @if (stockResponse != null) {

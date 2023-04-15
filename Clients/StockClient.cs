@@ -14,7 +14,6 @@ public class StockClient{
 
     
 
-
     public async Task<StockResponse> GetStock(string stockAcr){
 
         string url = "https://twelve-data1.p.rapidapi.com/stocks?exchange=NASDAQ&format=json" + "&symbol=AACG";
