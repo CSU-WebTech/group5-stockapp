@@ -16,18 +16,34 @@
             <button class="btn btn-primary" @onclick="AddStock">Lookup</button> 
             <br>
 
-
             @if (stockResponse != null) {
-                @foreach (var data in stockResponse.theData) {
-                    <p>"Symbol:" @data.theSymbol</p>
-                    <p>"Name:" @data.theName</p>
-                    <p>"Currency:" @data.theCurrency</p>
-                    <p>"Exchange:" @data.theExchange </p>     
-                    <p>"Mic Code:" @data.theName</p>
-                    <p>"Country:"  @data.theCountry</p>
-                    <p>"Type:" @data.theType</p>
-
-                }
+                <h3>Stock Information</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Symbol</th>
+                            <th>Name</th>
+                            <th>Currency</th>
+                            <th>Exchange</th>
+                            <th>Mic Code</th>
+                            <th>Country</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var data in stockResponse.theData) {
+                            <tr>
+                                <td>@data.theSymbol</td>
+                                <td>@data.theName</td>
+                                <td>@data.theCurrency</td>
+                                <td>@data.theExchange</td>
+                                <td>@data.theMicCode</td>
+                                <td>@data.theCountry</td>
+                                <td>@data.theType</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
             }           
         </div>
     </div>
@@ -44,8 +60,8 @@
 
     protected async Task AddStock(){
         if(enteredStock != null){
-        stockResponse = await StockClient.GetStock(enteredStock);
-    }
+            stockResponse = await StockClient.GetStock(enteredStock);
+        }
     }
 
 }
