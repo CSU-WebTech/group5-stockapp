@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = StockApp
 build_property.RootNamespace = StockApp
-build_property.ProjectDir = /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/
+build_property.ProjectDir = C:\Users\Jason Bourne\Downloads\Spring 2023\Web Engineering\BlazorStockApp\group5-stockapp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp
+build_property.MSBuildProjectDirectory = C:\Users\Jason Bourne\Downloads\Spring 2023\Web Engineering\BlazorStockApp\group5-stockapp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/App.razor]
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/Pages/About.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQucmF6b3I=
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/Pages/StockPrices.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RvY2tQcmljZXMucmF6b3I=
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/Pages/StockPrices.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tQcmljZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/Pages/StockSearch.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RvY2tTZWFyY2gucmF6b3I=
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/Pages/StockSearch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tTZWFyY2gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/_Imports.razor]
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-q6msfdfnxy
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sdnn8gikno
 
-[/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/group5-stockapp-main/StockApp/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ad9iif3u0p
+[C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group5-stockapp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-irnqj0v2dl
