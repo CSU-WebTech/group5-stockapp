@@ -16,9 +16,9 @@ public class StockClient{
 
     public async Task<StockResponse> GetStock(string stockAcr){
 
-        string url = "https://twelve-data1.p.rapidapi.com/stocks?exchange=NASDAQ&format=json" + "&symbol=AACG";
+        string url = "https://twelve-data1.p.rapidapi.com/time_series?interval=1day" + "&symbol=AACG";
         if(stockAcr != null){
-            url = "https://twelve-data1.p.rapidapi.com/stocks?exchange=NASDAQ&format=json" + "&symbol=" + stockAcr;
+            url = "https://twelve-data1.p.rapidapi.com/time_series?interval=1day" + "&symbol=" + stockAcr;
         }        
         return await _client.GetFromJsonAsync<StockResponse>(url);
     }
