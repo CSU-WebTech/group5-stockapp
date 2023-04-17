@@ -85,5 +85,14 @@
             stockResponse = await StockClient.GetStock(enteredStock);
         }
     }
-
+    public List<string> tickerList = new List<string>();
+    public List<string> GetSearchHistory()
+    {
+        //var tickerList2 = new List<string>();
+        foreach(var ticker in stockResponse.theMetaData.theSymbol)
+        {
+            tickerList.Add(stockResponse.theMetaData.theSymbol);
+        }
+        return tickerList;
+    }
 }
