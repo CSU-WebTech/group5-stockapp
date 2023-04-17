@@ -1,7 +1,42 @@
 ﻿@page "/history"
+@using StockApp.Models;
+@using StockApp.Clients;
+@inject StockClient StockClient;
+@using StockApp.Pages;
 
 <PageTitle>Stock Search History</PageTitle>
-
+    <h3>Stock Information</h3>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Date Time</th>
+                        <th>Open</th>
+                        <th>High</th>
+                        <th>Low</th>
+                        <th>Close</th>
+                        <th>Volume</th>                          
+                        </tr>
+                </thead>
+                <tbody>
+                    @foreach (var value in tickerList)
+                        {
+                            <tr>
+                                <td>@value</td>                                
+                            </tr>
+                        }
+                </tbody>
+            </table>
+        </div>
 @code {
-
+    private StockSearch? stockSearch= null;
+    List<string> tickerList = new List<string>();
+    public void GetSeachHistory()
+    {
+        foreach(var i in stockSearch.tickerList)
+        {
+            tickerList.Add(i);
+        }
+    }
 }
