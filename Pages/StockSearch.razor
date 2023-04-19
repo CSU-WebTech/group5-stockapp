@@ -2,6 +2,7 @@
 @using StockApp.Models;
 @using StockApp.Clients;
 @inject StockClient StockClient;
+@using StockApp.Pages;
 
 <PageTitle>Watch List</PageTitle>
 
@@ -10,11 +11,12 @@
         <div class="col-md-6">
             <h2>Lookup Stock</h2>
 
-
+        
         <br>
         <p>Please enter a valid stock acronym:</p>
         <input placeholder="AACG" @bind-value="@enteredStock" />
         <button class="btn btn-primary" @onclick="AddStock">Lookup</button>
+        <button class="btn btn-primary" @onclick="SymbolList">Search History</button>
         <br>
         <br>
         <br>
@@ -37,62 +39,68 @@
                             <th>Exchange Timezone</th>
                             <th>Exchange</th>
                             <th>Mic Code</th>
-                            <th>Type</th>
-                            
+                            <th>Type</th>                           
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var value in stockResponse.theValues)
+                        @if(historyClicked)
                         {
-                            <tr>
-                                <td>@stockResponse.theMetaData.theSymbol</td>
-                                <td>@value.theDateTime</td>
-                                <td>@value.theOpen</td>
-                                <td>@value.theHigh</td>
-                                <td>@value.theLow</td>
-                                <td>@value.theClose</td>
-                                <td>@value.theVolume</td>
-                                <td>@stockResponse.theMetaData.theCurrency</td>
-                                <td>@stockResponse.theMetaData.theExchangeTimezone</td>
-                                <td>@stockResponse.theMetaData.theExchange</td>
-                                <td>@stockResponse.theMetaData.theMicCode</td>
-                                <td>@stockResponse.theMetaData.theType</td>
-                            </tr>
+                            @foreach (var value in _history)
+                            {
+                                <td>@value.symbol</td>
+                            }
+                            
                         }
+                        else
+                        {
+                            @foreach (var value in stockResponse.theValues)
+                            {
+                                <tr>
+                                    <td>@stockResponse.theMetaData.theSymbol</td>
+                                    <td>@value.theDateTime</td>
+                                    <td>@value.theOpen</td>
+                                    <td>@value.theHigh</td>
+                                    <td>@value.theLow</td>
+                                    <td>@value.theClose</td>
+                                    <td>@value.theVolume</td>
+                                    <td>@stockResponse.theMetaData.theCurrency</td>
+                                    <td>@stockResponse.theMetaData.theExchangeTimezone</td>
+                                    <td>@stockResponse.theMetaData.theExchange</td>
+                                    <td>@stockResponse.theMetaData.theMicCode</td>
+                                    <td>@stockResponse.theMetaData.theType</td>                            
+                                </tr>
+                            }
+                        }
+
                     </tbody>
                 </table>
             </div>
         }
     </div>
 </div>
-
-
-
-
 </div>
 
 @code {
-
     private StockResponse? stockResponse = null;
     protected override async Task OnInitializedAsync(){
         stockResponse = await StockClient.GetStock(null);
     }
 
     private string? enteredStock;
-
+    public HistoryList? historyList = null;
+    List<HistoryList> _history = new List<HistoryList>();
     protected async Task AddStock(){
+        historyClicked = false;
         if(enteredStock != null){
             stockResponse = await StockClient.GetStock(enteredStock);
+            _history.Add(new HistoryList{symbol =stockResponse.theMetaData.theSymbol });           
+            symbolList.Add(stockResponse.theMetaData.theSymbol);
         }
     }
-    public List<string> tickerList = new List<string>();
-    public List<string> GetSearchHistory()
-    {
-        //var tickerList2 = new List<string>();
-        foreach(var ticker in stockResponse.theMetaData.theSymbol)
+    public List<string>symbolList = new List<string>();
+    public bool historyClicked;
+    void SymbolList()
         {
-            tickerList.Add(stockResponse.theMetaData.theSymbol);
+            historyClicked= true;
         }
-        return tickerList;
-    }
 }

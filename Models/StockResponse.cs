@@ -36,6 +36,8 @@ namespace StockApp.Models
 
         [JsonPropertyName("type")]
         public string theType { get; set; }
+        [JsonPropertyName("history")]
+        public List <string> symbolList { get; set; }
     }
 
     public class StockValue
@@ -57,5 +59,10 @@ namespace StockApp.Models
 
         [JsonPropertyName("volume")]
         public string theVolume { get; set; }
+    }
+    public class HistoryList
+    {
+        [JsonPropertyName("history")]
+        public string symbol { get; set; }
     }
 }
