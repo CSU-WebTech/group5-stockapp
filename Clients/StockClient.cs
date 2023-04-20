@@ -23,4 +23,31 @@ public class StockClient{
         return await _client.GetFromJsonAsync<StockResponse>(url);
     }
 
+    public async Task<StockResponseWatchList> GetAllStocks(string stockAcr){
+
+        string url = "https://twelve-data1.p.rapidapi.com/stocks" + "?symbol=AACG";
+        if(stockAcr != null){
+            url = "https://twelve-data1.p.rapidapi.com/stocks" + "?symbol=" + stockAcr;
+        }        
+        return await _client.GetFromJsonAsync<StockResponseWatchList>(url);
+    }
+
+    public async Task<StockResponseWatchList> GetStockCode(string stockCode){
+
+        string url = "https://twelve-data1.p.rapidapi.com/stocks" + "?mic_code=XNMS";
+        if(stockCode != null){
+            url = "https://twelve-data1.p.rapidapi.com/stocks" + "?mic_code=" + stockCode;
+        }        
+        return await _client.GetFromJsonAsync<StockResponseWatchList>(url);
+    }    
+    
+    public async Task<StockResponseWatchList> GetCurrency(string theCurr){
+
+        string url = "https://twelve-data1.p.rapidapi.com/stocks" + "?currency=USD";
+        if(theCurr != null){
+            url = "https://twelve-data1.p.rapidapi.com/stocks" + "?currency=" + theCurr;
+        }        
+        return await _client.GetFromJsonAsync<StockResponseWatchList>(url);
+    }         
+
 }
