@@ -37,7 +37,7 @@
 
             <br>
 
-            <p>Please enter a valid <b>currency</b> (Give up to 30 sec. with some searches):</p>
+            <p>Please enter a valid <b>currency</b> (Give up to 20 sec. with some searches):</p>
 
             <div class="form-group row">
                 <div class="col-md-9">
@@ -45,6 +45,19 @@
                 </div>
                 <div class="col-md-3">
                     <button class="btn btn-primary" @onclick="AddCurrency">Lookup</button>
+                </div>
+            </div>
+
+            <br>
+
+            <p>Please enter a valid <b>exchange</b> (Give up to 5 sec. with some searches):</p>
+
+            <div class="form-group row">
+                <div class="col-md-9">
+                    <input placeholder="Enter exchange" @bind-value="@enteredExchange" class="form-control"/>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-primary" @onclick="AddExchange">Lookup</button>
                 </div>
             </div>
 
@@ -111,7 +124,7 @@
     private string? enteredStock;
     private string? enteredCode;
     private string? enteredCurrency;
-
+    private string? enteredExchange;
 
     protected async Task AddStock()
     {
@@ -134,6 +147,14 @@
         if (enteredCurrency != null)
         {
             stockResponseWatchList = await StockClient.GetCurrency(enteredCurrency);
+        }
+    }
+
+    protected async Task AddExchange()
+    {
+        if (enteredExchange != null)
+        {
+            stockResponseWatchList = await StockClient.GetExchange(enteredExchange);
         }
     }
 }

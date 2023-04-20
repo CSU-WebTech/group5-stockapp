@@ -50,4 +50,12 @@ public class StockClient{
         return await _client.GetFromJsonAsync<StockResponseWatchList>(url);
     }         
 
+    public async Task<StockResponseWatchList> GetExchange(string theExch){
+
+        string url = "https://twelve-data1.p.rapidapi.com/stocks" + "?exchange=NASDAQ";
+        if(theExch != null){
+            url = "https://twelve-data1.p.rapidapi.com/stocks" + "?exchange=" + theExch;
+        }        
+        return await _client.GetFromJsonAsync<StockResponseWatchList>(url);
+    }  
 }
