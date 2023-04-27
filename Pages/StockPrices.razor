@@ -65,10 +65,11 @@
     {
         if (stockResponse != null)
         {
-            var labels = stockResponse.theValues.Select(v => v.theDateTime.ToString()).ToArray();
-            var data = stockResponse.theValues.Select(v => v.theOpen).ToArray();
+            var labels = stockResponse.theValues.Select(v => v.theDateTime.ToString()).Reverse().ToArray();
+            var data = stockResponse.theValues.Select(v => v.theOpen).Reverse().ToArray();
 
             await JSRuntime.InvokeVoidAsync("createChartInStockPrices", "stockChart", labels, data);
         }
     }
+
 }
