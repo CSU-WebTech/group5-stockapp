@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets/js/scripts.js"
     },
     {
+      "Id": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/stockimage.jpg",
+      "PackagePath": "staticwebassets/stockimage.jpg"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.StockApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
