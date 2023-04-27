@@ -1,29 +1,74 @@
 ﻿@page "/stockprices"
+@using StockApp.Models;
+@using StockApp.Clients;
+@inject StockClient StockClient;
+@using System.IO;
+@using System.Text.Json;
+@inject IJSRuntime JSRuntime
+@inject HttpClient Http
+@using System.Net.Http
 
-<PageTitle>Stock Prices</PageTitle>
+<PageTitle>Stock Pricing</PageTitle>
 
-        <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
-            <!-- Heading Row-->
-            <div class="row gx-4 gx-lg-5 align-items-center my-5">
-                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/900x400/dee2e6/6c757d.jpg" alt="..." /></div>
-                <div class="col-lg-5">
-                    <h1 class="font-weight-light">The STOCK PRICES!</h1>
-                    <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
-                    <a class="btn btn-primary" href="#!">Call to Action!</a>
+<div class="container px-4 px-lg-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Stock Price</h2>
+
+            <br>
+            <p>Please enter a valid stock acronym:</p>
+            <input placeholder="AACG" @bind-value="@enteredStock" />
+            <button class="btn btn-primary" @onclick="AddStock">Lookup</button>
+            <br>
+            <br>
+            <br>
+
+            @if (stockResponse != null)
+            {
+                <h3>Stock Information (Last 20 Days)</h3>
+                <div class="table-responsive">
+                    <canvas id="stockChart" width="600" height="400"></canvas>
                 </div>
-            </div>
+            }
         </div>
+    </div>
+</div>
 
+@code {
+    private StockResponse? stockResponse = null;
+    private string? enteredStock;
 
-
-<!-- 
-    @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
+    protected override async Task OnInitializedAsync()
     {
-        currentCount++;
+        stockResponse = await StockClient.GetStock(null);
+
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && stockResponse != null)
+        {
+            await RenderChart();
+        }
+    }
+
+    protected async Task AddStock()
+    {
+        if (enteredStock != null)
+        {
+            stockResponse = await StockClient.GetStock(enteredStock);
+            await RenderChart();
+        }
+    }
+
+    private async Task RenderChart()
+    {
+        if (stockResponse != null)
+        {
+            var labels = stockResponse.theValues.Select(v => v.theDateTime.ToString()).ToArray();
+            var data = stockResponse.theValues.Select(v => v.theOpen).ToArray();
+
+            await JSRuntime.InvokeVoidAsync("createChartInStockPrices", "stockChart", labels, data);
+        }
     }
 }
--->

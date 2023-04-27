@@ -1,0 +1,50 @@
+@page "/history"
+@inject HttpClient Http
+@using System.Net.Http.Json
+@using StockApp.Models
+@inject ILocalStorageService LocalStorage
+
+<PageTitle>History</PageTitle>
+
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+@if (historyLogs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th> User </th>
+                <th>Symbol Searched</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var logs in historyLogs)
+            {
+                <tr>
+                    <td>User</td>
+                    <td>@logs</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+        </div>
+
+
+@code {
+    private string[]? historyLogs;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadHistoryLogs();
+    }
+
+    private async Task LoadHistoryLogs()
+    {
+        historyLogs = await LocalStorage.GetItemAsync<string[]>("searchHistory");
+    }
+}

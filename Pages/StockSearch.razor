@@ -2,88 +2,99 @@
 @using StockApp.Models;
 @using StockApp.Clients;
 @inject StockClient StockClient;
+@using System.IO;
+@using System.Text.Json;
+@inject ILocalStorageService LocalStorage
 
-<PageTitle>Watch List</PageTitle>
+<PageTitle>Stock Search</PageTitle>
 
 <div class="container px-4 px-lg-5">
     <div class="row">
         <div class="col-md-6">
             <h2>Lookup Stock</h2>
 
+            <br>
+            <p>Please enter a valid stock acronym:</p>
+            <input placeholder="AACG" @bind-value="@enteredStock" />
+            <button class="btn btn-primary" @onclick="AddStock">Lookup</button>
+            <br>
+            <br>
+            <br>
 
-        <br>
-        <p>Please enter a valid stock acronym:</p>
-        <input placeholder="AACG" @bind-value="@enteredStock" />
-        <button class="btn btn-primary" @onclick="AddStock">Lookup</button>
-        <br>
-        <br>
-        <br>
-
-        @if (stockResponse != null)
-        {
-            <h3>Stock Information</h3>
-            <div class="table-responsive">
-                <table class="table table-striped table-bordered">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>Symbol</th>
-                            <th>Date Time</th>
-                            <th>Open</th>
-                            <th>High</th>
-                            <th>Low</th>
-                            <th>Close</th>
-                            <th>Volume</th>
-                            <th>Currency</th>
-                            <th>Exchange Timezone</th>
-                            <th>Exchange</th>
-                            <th>Mic Code</th>
-                            <th>Type</th>
-                            
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var value in stockResponse.theValues)
-                        {
+            @if (stockResponse != null)
+            {
+                <h3>Stock Information</h3>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead class="thead-dark">
                             <tr>
-                                <td>@stockResponse.theMetaData.theSymbol</td>
-                                <td>@value.theDateTime</td>
-                                <td>@value.theOpen</td>
-                                <td>@value.theHigh</td>
-                                <td>@value.theLow</td>
-                                <td>@value.theClose</td>
-                                <td>@value.theVolume</td>
-                                <td>@stockResponse.theMetaData.theCurrency</td>
-                                <td>@stockResponse.theMetaData.theExchangeTimezone</td>
-                                <td>@stockResponse.theMetaData.theExchange</td>
-                                <td>@stockResponse.theMetaData.theMicCode</td>
-                                <td>@stockResponse.theMetaData.theType</td>
+                                <th>Symbol</th>
+                                <th>Date Time</th>
+                                <th>Open</th>
+                                <th>High</th>
+                                <th>Low</th>
+                                <th>Close</th>
+                                <th>Volume</th>
+                                <th>Currency</th>
+                                <th>Exchange Timezone</th>
+                                <th>Exchange</th>
+                                <th>Mic Code</th>
+                                <th>Type</th>
+
                             </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-        }
+                        </thead>
+                        <tbody>
+                            @foreach (var value in stockResponse.theValues)
+                            {
+                                <tr>
+                                    <td>@stockResponse.theMetaData.theSymbol</td>
+                                    <td>@value.theDateTime</td>
+                                    <td>@value.theOpen</td>
+                                    <td>@value.theHigh</td>
+                                    <td>@value.theLow</td>
+                                    <td>@value.theClose</td>
+                                    <td>@value.theVolume</td>
+                                    <td>@stockResponse.theMetaData.theCurrency</td>
+                                    <td>@stockResponse.theMetaData.theExchangeTimezone</td>
+                                    <td>@stockResponse.theMetaData.theExchange</td>
+                                    <td>@stockResponse.theMetaData.theMicCode</td>
+                                    <td>@stockResponse.theMetaData.theType</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
     </div>
-</div>
-
-
-
-
 </div>
 
 @code {
 
     private StockResponse? stockResponse = null;
     protected override async Task OnInitializedAsync(){
-        stockResponse = await StockClient.GetStock(null);
+        //stockResponse = await StockClient.GetStock(null);
+
+        //BELOW IS USED TO CLEAR CACHED DATA
+        //await LocalStorage.ClearAsync();
     }
 
     private string? enteredStock;
+    private List<string> searchHistory = new List<string>(); // Added this line to maintain a list of search queries
 
     protected async Task AddStock(){
-        if(enteredStock != null){
+
+        if(enteredStock != null){  
+
             stockResponse = await StockClient.GetStock(enteredStock);
+            await SaveData();
         }
+    }
+
+    private async Task SaveData()
+    {
+        searchHistory.Add(enteredStock); // Added this line to add entered stock to the search history
+        await LocalStorage.SetItemAsync("searchHistory", searchHistory.ToArray()); // Updated this line to save the search history array
     }
 
 }

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jason Bourne\\Downloads\\Spring 2023\\Web Engineering\\BlazorStockApp\\group5-stockapp\\StockApp.csproj": {}
+    "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/StockApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jason Bourne\\Downloads\\Spring 2023\\Web Engineering\\BlazorStockApp\\group5-stockapp\\StockApp.csproj": {
+    "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/StockApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jason Bourne\\Downloads\\Spring 2023\\Web Engineering\\BlazorStockApp\\group5-stockapp\\StockApp.csproj",
+        "projectUniqueName": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/StockApp.csproj",
         "projectName": "StockApp",
-        "projectPath": "C:\\Users\\Jason Bourne\\Downloads\\Spring 2023\\Web Engineering\\BlazorStockApp\\group5-stockapp\\StockApp.csproj",
-        "packagesPath": "C:\\Users\\Jason Bourne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jason Bourne\\Downloads\\Spring 2023\\Web Engineering\\BlazorStockApp\\group5-stockapp\\obj\\",
+        "projectPath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/StockApp.csproj",
+        "packagesPath": "/Users/jossai/.nuget/packages/",
+        "outputPath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jason Bourne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jossai/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -64,6 +66,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -80,7 +86,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[7.0.5, 7.0.5]"
+              "version": "[7.0.0, 7.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/jossai/.vscode-dotnet-sdk/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
