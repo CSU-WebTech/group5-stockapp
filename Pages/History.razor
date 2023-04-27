@@ -1,0 +1,55 @@
+@page "/history"
+@inject HttpClient Http
+@using System.Net.Http.Json
+@using StockApp.Models
+
+
+<PageTitle>History</PageTitle>
+
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+@if (historyLogs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Symbol</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var logs in historyLogs)
+            {
+                <tr>
+                    <td>@logs.User</td>
+                    <td>@logs.Symbol</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+        </div>
+
+
+@code {
+    private StockResponse? stockResponse = null;
+    private HistoryLog[]? historyLogs;
+
+    protected override async Task OnInitializedAsync()
+    {
+        historyLogs = await Http.GetFromJsonAsync<HistoryLog[]>("history/historylogs.json");
+    }
+
+    public class HistoryLog
+    {
+        public string User { get; set; }
+
+        public string Symbol { get; set; }
+
+
+    }    
+}

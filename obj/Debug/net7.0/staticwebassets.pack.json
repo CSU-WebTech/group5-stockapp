@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/history/historylogs.json",
+      "PackagePath": "staticwebassets/history/historylogs.json"
+    },
+    {
       "Id": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/icon-192.png",
       "PackagePath": "staticwebassets/icon-192.png"
     },
@@ -77,12 +81,16 @@
       "PackagePath": "staticwebassets/index.html"
     },
     {
+      "Id": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/js/chartInterop.js",
+      "PackagePath": "staticwebassets/js/chartInterop.js"
+    },
+    {
       "Id": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/js/scripts.js",
       "PackagePath": "staticwebassets/js/scripts.js"
     },
     {
-      "Id": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/sample-data/weather.json",
-      "PackagePath": "staticwebassets/sample-data/weather.json"
+      "Id": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/web.config",
+      "PackagePath": "staticwebassets/web.config"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.StockApp.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -2,6 +2,8 @@ using System.Net.Http.Json;
 using StockApp.Models;
 
 namespace StockApp.Clients;
+
+
 public class StockClient{
 
     private readonly HttpClient _client;
