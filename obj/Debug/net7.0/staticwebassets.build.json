@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+JF4C+fFhHMlirbGzifc2VpoIYdvrXQ+pKEsy2UKrvg=",
+  "Hash": "oGkTv0v3QkkMe2R3+5Nn+eOT3JDMyyeDyFiM/VD0spk=",
   "Source": "StockApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -7359,6 +7359,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/scripts.js"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/stockimage.jpg",
+      "SourceId": "StockApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "stockimage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/stockimage.jpg"
     }
   ]
 }
