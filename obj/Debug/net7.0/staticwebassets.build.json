@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wdqxIovWOn1UFR9R5mCe5w9pOaW4xXQ9RimWNdPVvG4=",
+  "Hash": "+JF4C+fFhHMlirbGzifc2VpoIYdvrXQ+pKEsy2UKrvg=",
   "Source": "StockApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.webassembly/7.0.0/build/net7.0/blazor.webassembly.js"
+    },
+    {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/.nuget/packages/blazored.localstorage/4.3.0/lib/net7.0/Blazored.LocalStorage.dll"
     },
     {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.0.xceg02sr83.js",
@@ -6477,6 +6494,23 @@
       "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/System.Buffers.dll"
     },
     {
+      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/obj/Debug/net7.0/build-gz/uUk2Fugp.gz",
+      "SourceId": "StockApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll"
+    },
+    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/obj/Debug/net7.0/build-gz/VH5mXjKZ.gz",
       "SourceId": "StockApp",
       "SourceType": "Computed",
@@ -7259,23 +7293,6 @@
       "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/history/historylogs.json",
-      "SourceId": "StockApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "history/historylogs.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/history/historylogs.json"
-    },
-    {
       "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/icon-192.png",
       "SourceId": "StockApp",
       "SourceType": "Discovered",
@@ -7342,23 +7359,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/scripts.js"
-    },
-    {
-      "Identity": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/web.config",
-      "SourceId": "StockApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "web.config",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/web.config"
     }
   ]
 }

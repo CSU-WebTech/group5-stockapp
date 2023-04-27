@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Qaeo8IhBZlXn+2Ye/YjJAnWVzHMl9c5CkIR4YWhTIzgejkegQfIFSWrEfrnF+JIpSMHRxA6YwmacLEecRCOfmw==",
+  "dgSpecHash": "B1R2YRdEHVf/EsNqx2ZZoD4eY8giz0hXtVdYl4nydCxed3NMIcjEe9pBD6PNeHegMEYBrx7CCGaiw2Hz//Q+gg==",
   "success": true,
   "projectFilePath": "/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/StockApp.csproj",
   "expectedPackageFiles": [
+    "/Users/jossai/.nuget/packages/blazored.localstorage/4.3.0/blazored.localstorage.4.3.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.aspnetcore.authorization/7.0.5/microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components/7.0.5/microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.5/microsoft.aspnetcore.components.analyzers.7.0.5.nupkg.sha512",
@@ -32,6 +33,7 @@
     "/Users/jossai/.nuget/packages/microsoft.jsinterop/7.0.5/microsoft.jsinterop.7.0.5.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.jsinterop.webassembly/7.0.0/microsoft.jsinterop.webassembly.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
+    "/Users/jossai/.nuget/packages/system.net.http.json/7.0.0/system.net.http.json.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
     "/Users/jossai/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.0/microsoft.netcore.app.runtime.mono.browser-wasm.7.0.0.nupkg.sha512"

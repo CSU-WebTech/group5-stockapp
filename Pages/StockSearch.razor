@@ -4,6 +4,7 @@
 @inject StockClient StockClient;
 @using System.IO;
 @using System.Text.Json;
+@inject ILocalStorageService LocalStorage
 
 <PageTitle>Stock Search</PageTitle>
 
@@ -73,18 +74,27 @@
     private StockResponse? stockResponse = null;
     protected override async Task OnInitializedAsync(){
         //stockResponse = await StockClient.GetStock(null);
+
+        //BELOW IS USED TO CLEAR CACHED DATA
+        //await LocalStorage.ClearAsync();
     }
 
     private string? enteredStock;
+    private List<string> searchHistory = new List<string>(); // Added this line to maintain a list of search queries
 
     protected async Task AddStock(){
 
         if(enteredStock != null){  
 
             stockResponse = await StockClient.GetStock(enteredStock);
+            await SaveData();
         }
     }
 
-
+    private async Task SaveData()
+    {
+        searchHistory.Add(enteredStock); // Added this line to add entered stock to the search history
+        await LocalStorage.SetItemAsync("searchHistory", searchHistory.ToArray()); // Updated this line to save the search history array
+    }
 
 }

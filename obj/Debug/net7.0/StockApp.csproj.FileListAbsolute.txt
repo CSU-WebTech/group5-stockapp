@@ -3354,3 +3354,7 @@ C:/Users/Jason Bourne/Downloads/Spring 2023/Web Engineering/BlazorStockApp/group
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/obj/Debug/net7.0/refint/StockApp.dll
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/obj/Debug/net7.0/StockApp.pdb
 /Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/obj/Debug/net7.0/ref/StockApp.dll
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/Blazored.LocalStorage.dll.gz
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/Blazored.LocalStorage.dll
+/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/obj/Debug/net7.0/build-gz/uUk2Fugp.gz

@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Blazored.LocalStorage/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -490,6 +502,25 @@
         },
         "runtime": {
           "lib/net7.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Net.Http.Json/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Net.Http.Json.dll": {
             "related": ".xml"
           }
         },
@@ -540,6 +571,18 @@
       }
     },
     "net7.0/browser-wasm": {
+      "Blazored.LocalStorage/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -1035,6 +1078,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "System.Net.Http.Json/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "System.Text.Encodings.Web/7.0.0": {
         "type": "package",
         "compile": {
@@ -1073,6 +1135,20 @@
     }
   },
   "libraries": {
+    "Blazored.LocalStorage/4.3.0": {
+      "sha512": "CfHp9SWN45cM/TM8uw4pELQBfCRtMssCMSOjsEXVWibeYBn36TLpzw+J1vsC2Su2BEQ3Et19A5+GqK1S3kHbTQ==",
+      "type": "package",
+      "path": "blazored.localstorage/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.localstorage.4.3.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/net7.0/Blazored.LocalStorage.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.5": {
       "sha512": "17BgaYa1QB8mOERZ/TSNwsWHrh65iU61VrsqivbZc+VUqnACtPCPbP0MFl/7CznXWCOXQZ59QRB6A5t0skyo2g==",
       "type": "package",
@@ -1877,6 +1953,33 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "System.Net.Http.Json/7.0.0": {
+      "sha512": "K74te5euBJLzosprZji9juSop5mLWRzlpSNqBgZBE7/2AiPbFtM7B5eDB/tnB1jjil3bNNeJYBNfIxobs6uXhQ==",
+      "type": "package",
+      "path": "system.net.http.json/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Net.Http.Json.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Net.Http.Json.targets",
+        "lib/net462/System.Net.Http.Json.dll",
+        "lib/net462/System.Net.Http.Json.xml",
+        "lib/net6.0/System.Net.Http.Json.dll",
+        "lib/net6.0/System.Net.Http.Json.xml",
+        "lib/net7.0/System.Net.Http.Json.dll",
+        "lib/net7.0/System.Net.Http.Json.xml",
+        "lib/netstandard2.0/System.Net.Http.Json.dll",
+        "lib/netstandard2.0/System.Net.Http.Json.xml",
+        "system.net.http.json.7.0.0.nupkg.sha512",
+        "system.net.http.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Text.Encodings.Web/7.0.0": {
       "sha512": "OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
       "type": "package",
@@ -1982,12 +2085,14 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Blazored.LocalStorage >= 4.3.0",
       "Microsoft.AspNetCore.Authorization >= 7.0.5",
       "Microsoft.AspNetCore.Components.Authorization >= 7.0.5",
       "Microsoft.AspNetCore.Components.WebAssembly >= 7.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Authentication >= 7.0.5",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 7.0.0",
-      "Microsoft.Extensions.Http >= 7.0.0"
+      "Microsoft.Extensions.Http >= 7.0.0",
+      "System.Net.Http.Json >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -2027,6 +2132,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
           "Microsoft.AspNetCore.Authorization": {
             "target": "Package",
             "version": "[7.0.5, )"
@@ -2049,6 +2158,10 @@
             "version": "[7.0.0, )"
           },
           "Microsoft.Extensions.Http": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "System.Net.Http.Json": {
             "target": "Package",
             "version": "[7.0.0, )"
           }
