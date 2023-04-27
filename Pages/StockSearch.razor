@@ -73,7 +73,7 @@
 
     private StockResponse? stockResponse = null;
     protected override async Task OnInitializedAsync(){
-        //stockResponse = await StockClient.GetStock(null);
+        stockResponse = await StockClient.GetStock(null);
 
         //BELOW IS USED TO CLEAR CACHED DATA
         //await LocalStorage.ClearAsync();
