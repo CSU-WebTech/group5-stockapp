@@ -345,7 +345,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>/Users/jossai/Desktop/School/CSU/CPSC6175–Web_Engineering_and_Technologies-Spring2023/Group Project/GitProject/group5-stockapp/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>C:\Users\Jason Bourne\Documents\Spring 2023\group5-stockapp\group5-stockapp\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

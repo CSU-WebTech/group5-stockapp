@@ -1,0 +1,14 @@
+body
+{
+    color: blue;
+}
+h2{
+    color:red;
+    font-size:x-large;
+}
+table, th, td {
+    border: 2px solid;
+    width: 100%;
+    font-weight: bold;
+    color:red;
+  }

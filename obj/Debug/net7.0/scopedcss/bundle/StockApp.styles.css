@@ -1,3 +1,22 @@
+/* /Pages/History.razor.rz.scp.css */
+tbody[b-u1epknfv58]{
+    color: red;
+}
+/* /Pages/StockSearch.razor.rz.scp.css */
+body[b-1mkwpo1cyy]
+{
+    color: blue;
+}
+h2[b-1mkwpo1cyy]{
+    color:red;
+    font-size:x-large;
+}
+table[b-1mkwpo1cyy], th[b-1mkwpo1cyy], td[b-1mkwpo1cyy] {
+    border: 2px solid;
+    width: 100%;
+    font-weight: bold;
+    color:red;
+  }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-q6msfdfnxy] {
     position: relative;
