@@ -6,33 +6,34 @@
 
 <PageTitle>History</PageTitle>
 
-        <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
-@if (historyLogs == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th> User </th>
-                <th>Symbol Searched</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var logs in historyLogs)
-            {
+<!-- Page Content-->
+<div class="container px-4 px-lg-5">
+    <br>
+    @if (historyLogs == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>User</td>
-                    <td>@logs</td>
+                    <th style="color:darkblue;">User</th>
+                    <th style="color:darkblue;">Symbol Searched</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
-        </div>
+            </thead>
+            <tbody>
+                @foreach (var logs in historyLogs)
+                {
+                    <tr>
+                        <td>User</td>
+                        <td>@logs</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
 
 
 @code {
