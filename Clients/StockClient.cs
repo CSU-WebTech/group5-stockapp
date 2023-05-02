@@ -24,6 +24,14 @@ public class StockClient{
         }        
         return await _client.GetFromJsonAsync<StockResponse>(url);
     }
+    public async Task<StockResponse> GetStockRealTime(string stockAcr){
+
+        string url = "https://twelve-data1.p.rapidapi.com/price" + "?symbol=AACG";
+        if(stockAcr != null){
+            url = "https://twelve-data1.p.rapidapi.com/price" + "?symbol=" + stockAcr;
+        }        
+        return await _client.GetFromJsonAsync<StockResponse>(url);
+    }
 
     public async Task<StockResponseWatchList> GetAllStocks(string stockAcr){
 

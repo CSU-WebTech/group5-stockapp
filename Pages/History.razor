@@ -51,13 +51,13 @@ else
 
 @code {
     private string[]? historyLogs;
-
+    private StockResponse? stockResponse = null;
     protected override async Task OnInitializedAsync()
     {
         await LoadHistoryLogs();
         foreach(var logs in historyLogs)
         {
-            stockResponse = await StockClient.GetStock(logs);
+            stockResponse = await StockClient.GetStockRealTime(logs);
             //await SaveData();
         }
     }
@@ -65,14 +65,5 @@ else
     private async Task LoadHistoryLogs()
     {
         historyLogs = await LocalStorage.GetItemAsync<string[]>("searchHistory"); 
-        FillSearchHistory();
-    }
-    private StockResponse? stockResponse = null;
-    private void FillSearchHistory()
-    {
-        foreach(var logs in historyLogs)
-        {
-            searchHistory.Add(logs);
-        }
     }
 }

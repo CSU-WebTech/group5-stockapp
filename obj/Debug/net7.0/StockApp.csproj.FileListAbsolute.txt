@@ -4203,4 +4203,12 @@ C:\Users\Jason Bourne\Documents\Spring 2023\group5-stockapp\group5-stockapp\obj\
 C:\Users\Jason Bourne\Documents\Spring 2023\group5-stockapp\group5-stockapp\obj\Debug\net7.0\StockApp.pdb
 C:\Users\Jason Bourne\Documents\Spring 2023\group5-stockapp\group5-stockapp\obj\Debug\net7.0\ref\StockApp.dll
 C:\Users\Jason Bourne\Documents\Spring 2023\group5-stockapp\group5-stockapp\obj\Debug\net7.0\scopedcss\Pages\StockSearch.razor.rz.scp.css
-C:\Users\Jason Bourne\Documents\Spring 2023\group5-stockapp\group5-stockapp\obj\Debug\net7.0\scopedcss\Pages\History.razor.rz.scp.css
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.csproj.AssemblyReference.cache
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.AssemblyInfoInputs.cache
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.AssemblyInfo.cs
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.csproj.CoreCompileInputs.cache
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.dll
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\refint\StockApp.dll
+C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\StockApp.pdb
