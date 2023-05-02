@@ -30,17 +30,11 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var value in stockResponse.theValues)
+            @foreach (var value in historyLogs)
             {
                 <tr>
                     <td>User</td>
-                    <td>@stockResponse.theMetaData.theSymbol</td>
-                    <td>@value.theDateTime</td>
-                    <td>@value.theOpen</td>
-                    <td>@value.theHigh</td>
-                    <td>@value.theLow</td>
-                    <td>@value.theClose</td>
-                    <td>@value.theVolume</td>
+                    <td>@value</td>
                 </tr>
             }
         </tbody>

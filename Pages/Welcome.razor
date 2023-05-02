@@ -1,0 +1,32 @@
+﻿@page "/welcome"
+@inject HttpClient Http
+@using System.Net.Http.Json
+@using StockApp.Models
+@using StockApp.Clients;
+@inject StockClient StockClient;
+@inject ILocalStorageService LocalStorage
+<h3>Welcome</h3>
+
+<table class="table">
+        <thead>
+            <tr>
+                <th> Welcome User </th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>@user</td>
+                    <td>@user.userName</td>
+                </tr>
+        </tbody>
+    </table>
+
+@code {
+    string userName;
+    private User user;
+
+    protected override async Task OnInitializedAsync()
+    {
+        userName = await LocalStorage.GetItemAsync<string>("userName"); 
+    }
+}

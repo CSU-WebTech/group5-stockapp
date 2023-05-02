@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using StockApp.Models;
+@inject ILocalStorageService LocalStorage
 
 <PageTitle>Login</PageTitle>
 
@@ -19,6 +20,7 @@
                     <input type="password" class="form-control" id="password" @bind="user.userPassword"  placeholder="Enter password">
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary"asp-page="/welcome" @onclick="RegisterUser">Register</button>
             </EditForm>
         </div>
     </div>
@@ -32,8 +34,15 @@
         return base.OnInitializedAsync();
     }
     private async Task<bool> ValidateUser()
-        {
-            return await Task.FromResult(true);
-        }
+    {
+        return await Task.FromResult(true);
+    }
+    private async Task RegisterUser()
+    {
+        //NavigationManager? navigate= null;
+        //await LocalStorage.SetItemAsync("userName",user.userName);
+        //await LocalStorage.SetItemAsync("userPassword",user.userPassword);
+        //navigate.NavigateTo("/welcome");
+    }
 }
 
