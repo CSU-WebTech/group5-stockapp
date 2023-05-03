@@ -13,21 +13,39 @@
             <EditForm Model="@user" OnValidSubmit="ValidateUser">
                 <div class="form-group">
                     <label for="username">Username</label>
-                    <input type="text" class="form-control" id="username" @bind="user.userName" placeholder="Enter username">
+                    <input type="text" class="form-control" id="username" @bind-value="userName" placeholder="Enter username">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" @bind="user.userPassword"  placeholder="Enter password">
+                    <input type="password" class="form-control" id="password" @bind-value="userPassword"  placeholder="Enter password">
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
                 <button type="submit" class="btn btn-primary"asp-page="/welcome" @onclick="RegisterUser">Register</button>
             </EditForm>
+            <table class="table table-striped table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Welcome user</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var value in userList)
+                            {
+                                <tr>
+                                    <td>@value</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
         </div>
     </div>
 </div>
 
 @code {
-    private User user;
+    private User? user;
+    private string userName;
+    private string userPassword;
+    private string[]? registerUser;
     protected override Task OnInitializedAsync()
     {
         user = new User();
@@ -37,12 +55,14 @@
     {
         return await Task.FromResult(true);
     }
+    private List<string> userList = new List<string>();
     private async Task RegisterUser()
     {
-        //NavigationManager? navigate= null;
-        //await LocalStorage.SetItemAsync("userName",user.userName);
+        NavigationManager? manager = null;
         //await LocalStorage.SetItemAsync("userPassword",user.userPassword);
-        //navigate.NavigateTo("/welcome");
+        await LocalStorage.SetItemAsync<string[]>("userName",userList.ToArray()); 
+        userList.Add(userName);
+        manager.NavigateTo("/welcome");
     }
 }
 

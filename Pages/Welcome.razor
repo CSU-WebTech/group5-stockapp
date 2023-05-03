@@ -14,19 +14,24 @@
             </tr>
         </thead>
         <tbody>
+            @foreach (var value in userLogs)
+            {
                 <tr>
-                    <td>@user</td>
-                    <td>@user.userName</td>
+                    <td>User</td>
+                    <td>@value</td>
                 </tr>
+            }
         </tbody>
     </table>
 
 @code {
     string userName;
+    private string[]? userLogs;
     private User user;
 
     protected override async Task OnInitializedAsync()
     {
         userName = await LocalStorage.GetItemAsync<string>("userName"); 
+        userLogs = await LocalStorage.GetItemAsync<string[]>("userName"); 
     }
 }

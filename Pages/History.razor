@@ -49,15 +49,15 @@ else
     protected override async Task OnInitializedAsync()
     {
         await LoadHistoryLogs();
-        foreach(var logs in historyLogs)
-        {
-            stockResponse = await StockClient.GetStockRealTime(logs);
-            //await SaveData();
-        }
     }
-    private List<string> searchHistory = new List<string>(); 
+    //private List<string> searchHistory = new List<string>(); 
     private async Task LoadHistoryLogs()
     {
         historyLogs = await LocalStorage.GetItemAsync<string[]>("searchHistory"); 
     }
 }
+        /*foreach(var logs in historyLogs)
+        {
+            stockResponse = await StockClient.GetStockRealTime(logs);
+            //await SaveData();
+        }*/
