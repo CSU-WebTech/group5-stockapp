@@ -5197,7 +5197,6 @@ C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\s
 C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\scopedcss\Pages\StockSearch.razor.rz.scp.css
 C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Jason Bourne\Documents\Spring 2023\StockApp\StockApp\obj\Debug\net7.0\scopedcss\bundle\StockApp.styles.css

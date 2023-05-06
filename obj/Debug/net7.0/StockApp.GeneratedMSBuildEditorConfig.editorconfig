@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tQcmljZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Jason Bourne/Documents/Spring 2023/StockApp/StockApp/Pages/StockSearch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tTZWFyY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jason Bourne/Documents/Spring 2023/StockApp/StockApp/Pages/Welcome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VsY29tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -51,10 +55,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Jason Bourne/Documents/Spring 2023/StockApp/StockApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jason Bourne/Documents/Spring 2023/StockApp/StockApp/Pages/StockSearch.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2tTZWFyY2gucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-1mkwpo1cyy
 
 [C:/Users/Jason Bourne/Documents/Spring 2023/StockApp/StockApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

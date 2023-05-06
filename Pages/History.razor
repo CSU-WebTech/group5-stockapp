@@ -56,8 +56,3 @@ else
         historyLogs = await LocalStorage.GetItemAsync<string[]>("searchHistory"); 
     }
 }
-        /*foreach(var logs in historyLogs)
-        {
-            stockResponse = await StockClient.GetStockRealTime(logs);
-            //await SaveData();
-        }*/
