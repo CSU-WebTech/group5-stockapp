@@ -2,57 +2,50 @@
 @inject HttpClient Http
 @using System.Net.Http.Json
 @using StockApp.Models
-@using StockApp.Clients;
-@inject StockClient StockClient;
 @inject ILocalStorageService LocalStorage
 
 <PageTitle>History</PageTitle>
 
-        <!-- Page Content-->
-        <div class="container px-4 px-lg-5">
-@if (historyLogs == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th> User </th>
-                <th>Symbol Searched</th>
-                <th>Date Time</th>
-                <th>Open</th>
-                <th>High</th>
-                <th>Low</th>
-                <th>Close</th>
-                <th>Volume</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var value in historyLogs)
-            {
+<!-- Page Content-->
+<div class="container px-4 px-lg-5">
+    <br>
+    @if (historyLogs == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>User</td>
-                    <td>@value</td>
+                    <th style="color:darkblue;">User</th>
+                    <th style="color:darkblue;">Symbol Searched</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
-        </div>
+            </thead>
+            <tbody>
+                @foreach (var logs in historyLogs)
+                {
+                    <tr>
+                        <td>User</td>
+                        <td>@logs</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
 
 
 @code {
     private string[]? historyLogs;
-    private StockResponse? stockResponse = null;
+
     protected override async Task OnInitializedAsync()
     {
         await LoadHistoryLogs();
     }
-    //private List<string> searchHistory = new List<string>(); 
+
     private async Task LoadHistoryLogs()
     {
-        historyLogs = await LocalStorage.GetItemAsync<string[]>("searchHistory"); 
+        historyLogs = await LocalStorage.GetItemAsync<string[]>("searchHistory");
     }
 }
