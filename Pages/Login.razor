@@ -56,14 +56,18 @@
     }
     private List<string> userList = new List<string>();
     private bool hide  {get;set;} = false;
-    private bool show  {get;set;} = false;
-
+    private async Task UserLogin()
+    {
+        await LocalStorage.SetItemAsync("userPassword",user.userPassword);
+        await LocalStorage.SetItemAsync<string[]>("userName",userList.ToArray()); 
+        userList.Add(userName);
+        hide = !hide;
+    }
     private async Task RegisterUser()
     {
         await LocalStorage.SetItemAsync("userPassword",user.userPassword);
         await LocalStorage.SetItemAsync<string[]>("userName",userList.ToArray()); 
         userList.Add(userName);
         hide = !hide;
-        show = true;
     }
 }
