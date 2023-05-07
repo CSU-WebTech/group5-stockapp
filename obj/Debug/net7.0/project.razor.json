@@ -83,43 +83,6 @@
         }
       },
       {
-        "HashCode": -1157582476,
-        "Kind": "Components.Component",
-        "Name": "StockApp.Pages.History",
-        "AssemblyName": "StockApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "History"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "StockApp.Pages.History",
-          "Common.TypeNameIdentifier": "History",
-          "Common.TypeNamespace": "StockApp.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1644780886,
-        "Kind": "Components.Component",
-        "Name": "StockApp.Pages.History",
-        "AssemblyName": "StockApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "StockApp.Pages.History"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "StockApp.Pages.History",
-          "Common.TypeNameIdentifier": "History",
-          "Common.TypeNamespace": "StockApp.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -1905387107,
         "Kind": "Components.Component",
         "Name": "StockApp.Pages.Index",
@@ -299,6 +262,43 @@
         "Metadata": {
           "Common.TypeName": "StockApp.Pages.StockSearch",
           "Common.TypeNameIdentifier": "StockSearch",
+          "Common.TypeNamespace": "StockApp.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1157582476,
+        "Kind": "Components.Component",
+        "Name": "StockApp.Pages.History",
+        "AssemblyName": "StockApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "History"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "StockApp.Pages.History",
+          "Common.TypeNameIdentifier": "History",
+          "Common.TypeNamespace": "StockApp.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1644780886,
+        "Kind": "Components.Component",
+        "Name": "StockApp.Pages.History",
+        "AssemblyName": "StockApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "StockApp.Pages.History"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "StockApp.Pages.History",
+          "Common.TypeNameIdentifier": "History",
           "Common.TypeNamespace": "StockApp.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
