@@ -33,6 +33,7 @@
                 {
                     <p>@user</p>
                 }
+                <button hidden="@(!hide)" class="btn btn-primary">Logout</button>
             </EditForm>
         </div>
     </div>
@@ -59,8 +60,8 @@
         return await Task.FromResult(true);
     }
     private List<string> userList = new List<string>();
-    private bool hide  {get;set;} = false;
-    private bool show  {get;set;} = false;
+    static public bool hide  {get;set;} 
+    public bool show  {get;set;} 
     private async Task UserLogin()
     {
         await LocalStorage.SetItemAsync("userPassword",user.userPassword);
