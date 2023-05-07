@@ -19,12 +19,13 @@
                 <br/>
                 <div class="form-group">
                     <label hidden="@hide" style="color:darkblue;" for="password">Password</label>
-                    <input hidden="@hide" type="password" class="form-control" id="password" placeholder="Enter password">
+                    <input hidden="@hide" type="password" class="form-control" id="password" @bind-value="userPassword" placeholder="Enter password">
                 </div>
                 <br/>
-                <button hidden="@hide" type="submit" class="btn btn-primary">Login</button>
+                <button hidden="@hide" type="submit" class="btn btn-primary" @onclick="UserLogin" >Login</button>
                 <button hidden="@hide" class="btn btn-primary" @onclick="RegisterUser">Register</button>
                 <p hidden="@(!hide)">Welcome User</p>
+                <p hidden="@(!show)">Thank you for registering</p>
                 @foreach (var user in userList)
                 {
                     <p>@user</p>
@@ -56,6 +57,7 @@
     }
     private List<string> userList = new List<string>();
     private bool hide  {get;set;} = false;
+    private bool show  {get;set;} = false;
     private async Task UserLogin()
     {
         await LocalStorage.SetItemAsync("userPassword",user.userPassword);
@@ -69,5 +71,6 @@
         await LocalStorage.SetItemAsync<string[]>("userName",userList.ToArray()); 
         userList.Add(userName);
         hide = !hide;
+        show = true;
     }
 }
