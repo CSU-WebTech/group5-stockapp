@@ -1,4 +1,6 @@
-﻿@page "/"
+@page "/"
+@using StockApp.Models;
+@inject ILocalStorageService LocalStorage
 
 <PageTitle>Login</PageTitle>
 
@@ -9,10 +11,10 @@
         <div class="col-lg-12">
             <h1 class="font-weight-light">LOGIN</h1>
             <br/><br/>
-            <form>
+            <EditForm Model="@user" OnValidSubmit="ValidateUser">
                 <div class="form-group">
                     <label style="color:darkblue;" for="username">Username</label>
-                    <input type="text" class="form-control" id="username" placeholder="Enter username">
+                    <input type="text" class="form-control" id="username" @bind-value="userName" placeholder="Enter username">
                 </div>
                 <br/>
                 <div class="form-group">
@@ -21,7 +23,13 @@
                 </div>
                 <br/>
                 <button type="submit" class="btn btn-primary">Login</button>
-            </form>
+                <button class="btn btn-primary" @onclick="RegisterUser">Register</button>
+                <p>Welcome user </p>
+                @foreach (var user in userList)
+                {
+                    <p>@user</p>
+                }
+            </EditForm>
         </div>
     </div>
     <div class="col-lg-1"></div>
@@ -33,5 +41,24 @@
 </div>
 
 @code {
-
+    private User? user;
+    private string userName;
+    private string userPassword;
+    private string[]? registerUser;
+    protected override Task OnInitializedAsync()
+    {
+        user = new User();
+        return base.OnInitializedAsync();
+    }
+    private async Task<bool> ValidateUser()
+    {
+        return await Task.FromResult(true);
+    }
+    private List<string> userList = new List<string>();
+    private async Task RegisterUser()
+    {
+        await LocalStorage.SetItemAsync("userPassword",user.userPassword);
+        await LocalStorage.SetItemAsync<string[]>("userName",userList.ToArray()); 
+        userList.Add(userName);
+    }
 }
