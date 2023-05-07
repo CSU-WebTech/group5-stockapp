@@ -37,7 +37,14 @@ namespace StockApp.Models
         [JsonPropertyName("type")]
         public string theType { get; set; }
     }
+    public class User
+    {
+        [JsonPropertyName("user")]
+        public string userName { get; set; }
 
+        [JsonPropertyName("email")]
+        public string userPassword { get; set; }
+    }
     public class StockValue
     {
         [JsonPropertyName("datetime")]
