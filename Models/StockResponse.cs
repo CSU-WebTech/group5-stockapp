@@ -37,7 +37,8 @@ namespace StockApp.Models
         [JsonPropertyName("type")]
         public string theType { get; set; }
     }
-        public class User
+    public class User
+
     {
         [JsonPropertyName("user")]
         public string userName { get; set; }
