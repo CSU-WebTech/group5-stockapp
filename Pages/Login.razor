@@ -2,6 +2,7 @@
 
 @using StockApp.Models;
 @inject ILocalStorageService LocalStorage
+@inject NavigationManager NavigationManager
 
 <PageTitle>Login</PageTitle>
 
@@ -12,7 +13,6 @@
         <div class="col-lg-12">
             <h1 hidden="@hide" class="font-weight-light">LOGIN</h1>
             <br/><br/>
-            <EditForm Model="@user" OnValidSubmit="ValidateUser">
                 <div class="form-group">
 
                     <label hidden="@hide" style="color:darkblue;" for="username">Username</label>
@@ -25,7 +25,7 @@
                     <input hidden="@hide" type="password" class="form-control" id="password" @bind-value="userPassword" placeholder="Enter password">
                 </div>
                 <br/>
-                <button hidden="@hide" type="submit" class="btn btn-primary" @onclick="UserLogin" >Login</button>
+                <button hidden="@hide" class="btn btn-primary" @onclick="UserLogin" >Login</button>
                 <button hidden="@hide" class="btn btn-primary" @onclick="RegisterUser">Register</button>
                 <p hidden="@(!hide)">Welcome User</p>
                 <p hidden="@(!show)">Thank you for registering</p>
@@ -34,7 +34,6 @@
                     <p>@user</p>
                 }
                 <button hidden="@(!hide)" class="btn btn-primary">Logout</button>
-            </EditForm>
         </div>
     </div>
     <div class="col-lg-1"></div>
@@ -46,13 +45,12 @@
 </div>
 
 @code {
-    private User? user;
+    private User? user = null;
     private string userName;
     private string userPassword;
     private string[]? registerUser;
     protected override Task OnInitializedAsync()
     {
-        user = new User();
         return base.OnInitializedAsync();
     }
     private async Task<bool> ValidateUser()
@@ -64,17 +62,22 @@
     public bool show  {get;set;} 
     private async Task UserLogin()
     {
-        await LocalStorage.SetItemAsync("userPassword",user.userPassword);
-        await LocalStorage.SetItemAsync<string[]>("userName",userList.ToArray()); 
         userList.Add(userName);
+        await LocalStorage.SetItemAsync("userName",userList.ToArray()); 
         hide = !hide;
+        NavigationManager.NavigateTo("Welcome");
     }
     private async Task RegisterUser()
     {
-        await LocalStorage.SetItemAsync("userPassword",user.userPassword);
-        await LocalStorage.SetItemAsync<string[]>("userName",userList.ToArray()); 
-        userList.Add(userName);
+        user = await user.GetUser(userName);
         hide = !hide;
         show = true;
+        await SaveData();
+        NavigationManager.NavigateTo("Welcome");
+    }
+        private async Task SaveData()
+    {
+        userList.Add(userName); // Added this line to add entered stock to the search history
+        await LocalStorage.SetItemAsync("userName", userList.ToArray()); // Updated this line to save the search history array
     }
 }

@@ -25,13 +25,11 @@
     </table>
 
 @code {
-    string userName;
     private string[]? userLogs;
     private User user;
 
     protected override async Task OnInitializedAsync()
     {
-        userName = await LocalStorage.GetItemAsync<string>("userName"); 
         userLogs = await LocalStorage.GetItemAsync<string[]>("userName"); 
     }
 }

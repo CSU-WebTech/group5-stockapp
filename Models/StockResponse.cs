@@ -1,9 +1,11 @@
 using System.Text.Json.Serialization;
+using System.Net.Http.Json;
 
 namespace StockApp.Models
 {
     public class StockResponse
     {
+        
         [JsonPropertyName("meta")]
         public MetaData theMetaData { get; set; }
 
@@ -40,11 +42,16 @@ namespace StockApp.Models
     public class User
 
     {
+        private readonly HttpClient _client;
         [JsonPropertyName("user")]
         public string userName { get; set; }
 
         [JsonPropertyName("email")]
         public string userPassword { get; set; }
+        public async Task<User> GetUser(string user){
+            userName = user;           
+        return await _client.GetFromJsonAsync<User>(userName);
+        }
     }
     public class StockValue
     {

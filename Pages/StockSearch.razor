@@ -105,5 +105,4 @@
         searchHistory.Add(enteredStock); // Added this line to add entered stock to the search history
         await LocalStorage.SetItemAsync("searchHistory", searchHistory.ToArray()); // Updated this line to save the search history array
     }
-//
 }
