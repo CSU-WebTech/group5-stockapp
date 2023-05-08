@@ -30,7 +30,7 @@
                 <p hidden="@(!hide)">Welcome User</p>
                 <p hidden="@(!show)">Thank you for registering</p>
                     <p>@userName</p>
-                <button hidden="@(!hide)" class="btn btn-primary">Logout</button>
+                <button hidden="@(!hide)" @onclick="Logout" class="btn btn-primary">Logout</button>
         </div>
     </div>
     <div class="col-lg-1"></div>
@@ -76,4 +76,8 @@
         show = true;
         NavigationManager.NavigateTo("Welcome");
     }
+    private async Task Logout()
+    {
+        hide = !hide;
+     }
 }

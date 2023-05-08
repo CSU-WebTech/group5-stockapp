@@ -53,8 +53,7 @@
     protected override async Task OnInitializedAsync(){
         await ShowNavMenu();
     }
-    protected async Task ShowNavMenu(){
-        
+    protected async Task ShowNavMenu(){      
     hide = await LocalStorage.GetItemAsync<bool>("loggedIn");
     }
 }
