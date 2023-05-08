@@ -26,13 +26,10 @@
                 </div>
                 <br/>
                 <button hidden="@hide" class="btn btn-primary" @onclick="UserLogin" >Login</button>
-                <button hidden="@hide" class="btn btn-primary" @onclick="RegisterUser">Register</button>
+                <button  class="btn btn-primary" @onclick="RegisterUser">Register</button>
                 <p hidden="@(!hide)">Welcome User</p>
                 <p hidden="@(!show)">Thank you for registering</p>
-                @foreach (var user in userList)
-                {
-                    <p>@user</p>
-                }
+                    <p>@userName</p>
                 <button hidden="@(!hide)" class="btn btn-primary">Logout</button>
         </div>
     </div>
@@ -48,10 +45,12 @@
     private User? user = null;
     private string userName;
     private string userPassword;
+    public static bool loggedIn = false;
     private string[]? registerUser;
-    protected override Task OnInitializedAsync()
+    protected async override Task OnInitializedAsync()
     {
-        return base.OnInitializedAsync();
+        await LocalStorage.SetItemAsync("loggedIn",loggedIn = false);
+        //return base.OnInitializedAsync();
     }
     private async Task<bool> ValidateUser()
     {
@@ -65,19 +64,16 @@
         userList.Add(userName);
         await LocalStorage.SetItemAsync("userName",userList.ToArray()); 
         hide = !hide;
+        loggedIn = true;
+        await LocalStorage.SetItemAsync("loggedIn",loggedIn = true);
         NavigationManager.NavigateTo("Welcome");
     }
     private async Task RegisterUser()
     {
-        user = await user.GetUser(userName);
+        userList.Add(userName);
+        await LocalStorage.SetItemAsync("userName",userList.ToArray());
         hide = !hide;
         show = true;
-        await SaveData();
         NavigationManager.NavigateTo("Welcome");
-    }
-        private async Task SaveData()
-    {
-        userList.Add(userName); // Added this line to add entered stock to the search history
-        await LocalStorage.SetItemAsync("userName", userList.ToArray()); // Updated this line to save the search history array
     }
 }

@@ -1,4 +1,6 @@
 ﻿@using StockApp.Pages;
+@inject ILocalStorageService LocalStorage
+
 
 
 <!-- Responsive navbar-->
@@ -20,13 +22,13 @@
             
                 <li class="nav-item">
                     <NavLink  href="stocksearch" Match="NavLinkMatch.All">
-                        <span hidden="@(!Login.hide)"class="nav-link active" aria-current="page">Stock Search</span>
+                        <span hidden="@hide"class="nav-link active" aria-current="page">Stock Search</span>
                     </NavLink>
                 </li> 
 
                 <li class="nav-item">
                     <NavLink  href="portfolio" Match="NavLinkMatch.All">
-                        <span  class="nav-link active" aria-current="page">Advanced Search</span>
+                        <span hidden="@hide" class="nav-link active" aria-current="page">Advanced Search</span>
                     </NavLink>
                 </li> 
 
@@ -47,6 +49,14 @@
 </nav>
 
 @code {
+    private bool hide;
+    protected override async Task OnInitializedAsync(){
+        await ShowNavMenu();
+    }
+    protected async Task ShowNavMenu(){
+        
+    hide = await LocalStorage.GetItemAsync<bool>("loggedIn");
+    }
 }
 
 

@@ -7,13 +7,6 @@
 @inject ILocalStorageService LocalStorage
 <h3>Welcome</h3>
 
-<table class="table">
-        <thead>
-            <tr>
-                <th> Welcome User </th>
-            </tr>
-        </thead>
-        <tbody>
             @foreach (var value in userLogs)
             {
                 <tr>
@@ -21,9 +14,6 @@
                     <td>@value</td>
                 </tr>
             }
-        </tbody>
-    </table>
-
 @code {
     private string[]? userLogs;
     private User user;
